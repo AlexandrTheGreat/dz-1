@@ -1,0 +1,7 @@
+{
+  "name": "dz-1_Savka",
+  "dependencies": {
+    "normalize-css": "normalize.css#~3.0.3",
+    "modernizer": "~2.8.2"
+  }
+}
