@@ -1,0 +1,137 @@
+.work{
+	width: 100%;
+	background: #eff3f7;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    display: block;
+}
+.work-body{
+	background: #eff3f7;
+	padding: 0 0 0 24px;
+	margin: 0;
+	list-style: none;
+	min-height: 753px;
+}
+.work .work-header{
+	font-family: "fira_sansbook";
+	font-size: 27px;
+	font-weight: normal;
+	color: #3ba8c0;
+	border-bottom: 2px #3ba8c0 solid;
+	margin: 0 0 26px 0;
+	padding: 13px 23px;
+	display: inline-block;
+}
+.work-wrap{
+	box-sizing: border-box;
+	width: 181px;
+	height: 128px;
+	border: 2px #3ba8c0 solid;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	margin-right: 24px;
+	position: relative;
+}
+.work-info{
+	display: inline-block;
+	width:181px;
+	font-family: 'fira_sanslight';
+	font-size: 15px;
+	line-height: 1.14;
+	text-align: center;
+	color: #4a545d;
+	padding: 0;
+	margin: 0 auto;
+}
+.work-image{
+	box-sizing: border-box;
+	width: 181px;
+	height: 128px;
+	margin: -2px -2px;
+	border: 2px #3ba8c0 solid;
+	overflow:hidden;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+.caption-wrap{
+	position: absolute;
+	width: 100%;
+    top: 55px;
+    text-align: center;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+.work-item:hover .caption-wrap{
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+.image-caption{
+	font-family: 'fira_sansbook';
+	font-size: 12px;
+	color: #eff3f7;
+	text-decoration: none;
+	border: 2px solid #eff3f7;
+    border-radius: 5px;
+    padding: 0 2px;
+}
+.work-item:hover .work-image{
+	-moz-opacity: 0.25;
+	opacity:.25;
+	filter: alpha(opacity=25);
+}
+.work-item:hover .work-wrap{
+	background-color: #4191bb;
+}
+
+.work-link {
+	font-family: 'fira_sanslight_italic';
+	font-size: .8em;
+	display: inline-block;
+	color: #3ba8c0;
+	text-decoration: none;
+	padding: 0 0 8px 0;
+}
+.work-item{
+	display: inline-block;
+	margin-bottom: 39px;
+	vertical-align: top;
+}
+
+.add-work{
+	display: inline-block;
+	width: 179px;
+	height: 128px;
+	
+}
+.add-work-link{
+	display: table-cell;
+	width: 179px;
+	height: 128px;
+	border: 1px #3ba8c0 dashed;
+	border-radius: 6px;
+	text-align: center;
+	vertical-align: middle;
+}
+.add-work-link:hover{
+	background-color: #ecfbff;
+}
+
+.add-block{
+	font-family: 'fira_sanslight';
+	font-size: 13px;
+	text-decoration: none;
+	color: #3ba8c0;
+	display: inline-block;
+	margin: 0;
+	text-align: center;
+	position: relative;
+	top: 2px;
+}
+.add-block:before{
+	content: url(../img/new-project.png);
+	display: block;
+}
+
