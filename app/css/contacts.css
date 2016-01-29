@@ -1,0 +1,140 @@
+.contact{
+	background: #eff3f7;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	min-height: 840px;
+	width: 100%;
+	overflow: hidden;
+	font-family: 'fira_sanslight';
+	font-size: 19px;
+	color: #959aa8;
+}
+.contact .contact-header{
+	font-family: "fira_sansbook";
+	font-size: 27px;
+	font-weight: normal;
+	width: 100%;
+	color: #ffffff;
+	border-bottom: 17px #67dffa solid;
+	margin: 0 0 48px 0;
+	padding: 42px 58px 37px 58px;
+	background-color: #48cbe8;
+	display: block;
+}
+.contact .content-form-wrap{
+	width: 402px;
+	height: 455px;
+	margin: 0 auto;
+	padding: 0;
+	
+}
+.name-n-mail{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.left, .right{
+	width: 192px;
+	padding-bottom: 16px;
+}
+.left{
+	float: left;
+
+}
+.right{
+	float: right;
+}
+.full{
+	float: left;
+	padding-bottom: 16px;
+	width: 100%;
+}
+.capture{
+	width: 189px;
+	height: 60px;
+	border: 1px solid #48cbe8;
+	border-radius: 3px;
+	background-color: #fbfcfd;
+}
+.labels, .inputs{
+	display: block;
+	width: 174px;
+	float: left;
+	clear: right;
+}
+.labels{
+	margin: 0;
+	padding: 0 0 3px 0;
+	line-height: 1.105;
+}
+.label-capture{
+	width: 100%;
+}
+.inputs{
+	border: 1px solid #48cbe8;
+	border-radius: 3px;
+	font-size: 12px;
+	letter-spacing: 0.05em;
+	padding: 10px 8px 10px 8px;
+}
+
+.inputs::-webkit-input-placeholder {
+color: #48cbe8 !important;
+}
+.inputs:-moz-placeholder { /* Firefox 18- */
+color: #48cbe8 !important;  
+}
+.inputs::-moz-placeholder {  /* Firefox 19+ */
+color: #48cbe8 !important;  
+}
+.inputs:-ms-input-placeholder {  
+color: #48cbe8 !important;  
+}
+
+.inputs-mail .inputs-name{
+	width: 190px;
+	height: 39px;
+}
+.inputs-message{
+	width: 384px;
+	height: 161px;
+	resize:none;
+}
+.inputs-capture{
+	margin-top: 20px;
+	padding: 5px 9px 6px 9px;
+	width: 172px;
+}
+.buttons{
+	width: 137px;
+	height: 31px;
+	box-shadow: none;
+	border:0;
+	margin: 0;
+	padding: 0;
+	border-radius: 5px;
+	font-family: "fira_sansbook";
+	font-size: 19px;
+	color: #ffffff;
+
+}
+.submit{
+	float:left;
+	background-color: #48cbe8;
+	border-top: 2px solid #48cbe8;
+	border-bottom: 2px solid #3ba8c0;
+}
+.submit:hover{
+	border-top: 2px solid #48cbe8;
+	border-bottom: 2px solid #48cbe8;
+}
+.submit:active{
+	border-top: 2px solid #3ba8c0;
+	border-bottom: 2px solid #48cbe8;
+}
+.reset{
+	float:right;
+	background-color: #849db5;
+	border-top: 2px solid #849db5;
+	border-bottom: 2px solid #687b8f;
+}
