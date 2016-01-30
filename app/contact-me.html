@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Главная страница</title>
+	<title>Связаться со мной</title>
 	<!-- SEO -->
 	<meta name="description" content="loftschool_homework">
 	<meta name="keywords" content="loftschool_homework">
@@ -93,32 +93,31 @@
 						<div class="content-form-wrap">
 							<form action="#" class="contact-form" method="post">
 								<div class="left">
-									<label class="labels label-name" for "name">Имя</label>
+									<label class="labels label-name" for="name">Имя</label>
 									<input class="inputs inputs-name" type="text" id="name" name="username" placeholder="Как к Вам обращаться" required>
 								</div>
 								
 								<div class="right">
-									<label class="labels label-mail" for "mail">Email</label>
-									<input class="inputs inputs-mail" type="text" id="name" name="mail" placeholder="Куда мне писать" required>
+									<label class="labels label-mail" for="mail">Email</label>
+									<input class="inputs inputs-mail" type="text" id="mail" name="mail" placeholder="Куда мне писать" required>
 								</div>
 								
 								<div class="full">
-									<label class="labels label-message" for "message">Сообщение</label>
-									<textarea class="inputs inputs-message" type="text" id="message" name="message" placeholder="Кратко в чем суть" required></textarea>
+									<label class="labels label-message" for="message">Сообщение</label>
+									<textarea class="inputs inputs-message" id="message" name="message" placeholder="Кратко в чем суть" required></textarea>
 								</div>
 
-								<label class="labels label-capture" for "capture">Введите код, указанный на картинке</label>
+								<label class="labels label-capture" for="capture">Введите код, указанный на картинке</label>
 
 								<div class="right">
-									<input class="inputs inputs-capture" type="text" id="capture" name="capture" placeholder="Введите код" required></input>
+									<input class="inputs inputs-capture" type="text" id="capture" name="capture" placeholder="Введите код" required>
 								</div>
 
 								<div class="left capture"></div>
 								
 								<div class="full">
-									<input class="buttons submit" type="submit" id="submit" name="submit"></input>
-								
-									<input class="buttons reset" type="reset" id="reset" name="reset"></input>
+									<input class="buttons submit" type="submit" id="submit" name="submit" value="Отправить">
+									<input class="buttons reset" type="reset" id="reset" name="reset" value="Очистить">
 								</div>
 
 							</form>
@@ -139,7 +138,14 @@
 		</div>
 	</footer>
 
-	<script src="bower/jquery/dist/jquery.js"></script>
+		<script src="bower/jquery/dist/jquery.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="bower/jquery-placeholder/jquery.placeholder.js"></script>
+		<script>
+			$(function() {
+				$('input, textarea').placeholder({customClass:'my-placeholder'});
+			});
+		</script>
 	<script src="js/main.js"></script>	
 </body>
 </html>

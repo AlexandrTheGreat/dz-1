@@ -64,9 +64,15 @@
     transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
+.no-csstransforms .caption-wrap{
+	left:-9999px;
+}
 .work-item:hover .caption-wrap{
 	transform: scale(1);
 	-webkit-transform: scale(1);
+}
+.no-csstransforms .work-item:hover .caption-wrap{
+	left: 0;
 }
 .image-caption{
 	font-family: 'fira_sansbook';
@@ -128,10 +134,14 @@
 	margin: 0;
 	text-align: center;
 	position: relative;
-	top: 2px;
+	top: 22px;
+
 }
 .add-block:before{
 	content: url(../img/new-project.png);
 	display: block;
+	position: absolute;
+    left: 35px;
+    top: -41px;
 }
 
