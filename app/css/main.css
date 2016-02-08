@@ -119,6 +119,7 @@ body{
 	margin: 0;
 	border-bottom: none;
 	padding-left: 11px;
+	padding-right: 11px;
 	margin-bottom: -2px;
 }
 .navigation .navigation-item.current .navigation-link{
@@ -170,11 +171,6 @@ body{
 .lock .lock-inner{
 	display: block;
 	height: 40px;
-	/*font-family: "fira_sansbook";
-	font-size: 16px;
-	line-height: 2.2;
-	color: #4a545d;
-	text-decoration: none;*/
 	text-indent: -9999px;
 	background: url(../img/lock-close.png) no-repeat;
 	padding-left: 24px;
@@ -216,6 +212,7 @@ body{
 	list-style: none;
 	margin: 0;
 	padding: 0;
+
 }
 .contacts .contacts-link{
 	font-family: "fira_sansbook";
@@ -224,26 +221,30 @@ body{
 	color: #ffffff;
 	text-decoration: none;
 	display: block;
-	padding: 9px 0 5px 42px;
-}
-.contacts-header .contacts-link{
-	font-size: 20px;
-	padding: 7px 0 3px 21px;
+	padding: 9px 13px 6px 83px;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 .contacts-header{
+	font-family: "fira_sansbook";
+	font-style: normal;
+	font-size: 20px;
+	color: #ffffff;
+	display: block;
+	padding: 7px 20px 3px 20px;
 	background-color: #3ba8c0;
 }
 
 .contacts-item.icon-mail{
-	background: url(../img/mail.png) 13px center no-repeat;
+	background: url(../img/mail.png) 41px center no-repeat;
 	background-color: #41b9d4;
 }
 .contacts-item.icon-phone{
-	background: url(../img/phone.png) 13px center no-repeat;
+	background: url(../img/phone.png) 41px center no-repeat;
 	background-color: #48cbe8;
 }
 .contacts-item.icon-skype{
-	background: url(../img/skype.png) 13px center no-repeat;
+	background: url(../img/skype.png) 41px center no-repeat;
 	background-color: #51daf8;
 }
 .contacts-item .contacts-link:hover{
