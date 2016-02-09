@@ -140,7 +140,7 @@
 								
 
 								<li class="add-work">
-									<a href="my-work.html" class="add-work-link">
+									<a href="#" class="add-work-link">
 											<span class="add-block">Добавить проект</span>
 									</a>
 								</li>
@@ -152,35 +152,38 @@
 				</div>
 			</div>
 	</div>
-		
-		<div class="popup">
-			<h2 class="popup-header">Добавление проекта</h2>
-			<form class="popup-form" action="#" method="post">
-					
-				<label for="project-name">Название проекта</label>
-				<input class="popup-input" type="text" name="project-name" id="project-name" placeholder="Введите название" required>
-					
-				<label for="project-name">Картинка проекта</label>
-				<div class="popup-input-file">
-					<div id="open-button-placeholder">Загрузите изображение</div>
-					<div class="open-button"></div>
-					<input type="file" name="project-file" id="project-file" accept="image/*" onchange="getName(this.value);">
-				</div>
-					
-				<label for="project-url">URL проекта</label>
-				<input class="popup-input" type="text" name="project-url" id="project-url" placeholder="Добвьте ссылку" required>
+		<div class="popup-wrap hide">
+			<div class="popup-back hide">
+			</div>
+			<div class="popup hide">
+				<div class="close"></div>
+				<h2 class="popup-header">Добавление проекта</h2>
+				<form class="popup-form" action="#" method="post">
+						
+					<label for="project-name">Название проекта</label>
+					<input class="popup-input" type="text" name="project-name" id="project-name" placeholder="Введите название" required>
+						
+					<label for="project-name">Картинка проекта</label>
+					<div class="popup-input-file">
+						<div id="open-button-placeholder">Загрузите изображение</div>
+						<div class="open-button"></div>
+						<input type="file" name="project-file" id="project-file" accept="image/*" onchange="getName(this.value);">
+					</div>
+						
+					<label for="project-url">URL проекта</label>
+					<input class="popup-input" type="text" name="project-url" id="project-url" placeholder="Добвьте ссылку" required>
 
-				<label for="project-url">Описание</label>
-				<textarea class="popup-input" type="text" name="project-about" id="project-about" placeholder="Пара слов о вашем проекте" required></textarea>
+					<label for="project-url">Описание</label>
+					<textarea class="popup-input" type="text" name="project-about" id="project-about" placeholder="Пара слов о вашем проекте" required></textarea>
 
-				<input class="buttons submit" type="submit" id="submit" name="submit" value="Добавить">
-				
-			</form>
+					<div class="submit-button-wrap">
+						<input class="buttons submit" type="submit" id="submit" name="submit" value="Добавить">
+					</div>
+					
+				</form>
+			</div>
 		</div>
 	</div>
-
-	
-
 
 	<footer class="page-footer">
 		<div class="container">
@@ -192,6 +195,9 @@
 	</footer>
 
 	<script src="bower/jquery/dist/jquery.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="bower/jquery-placeholder/jquery.placeholder.js"></script>
 	<script src="js/main.js"></script>	
+	<script src="js/add_project.js"></script>
 </body>
 </html>
