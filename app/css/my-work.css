@@ -144,4 +144,121 @@
     left: 35px;
     top: -41px;
 }
+.popup{
+	width: 362px;
+	min-height: 494px;
+	background-color: #eff3f7;
+	border-radius: 4px;
+	overflow: hidden;
+	font-family: "fira_sansbook";
+	font-size: 17px;
+	font-weight: normal;
+	color: #959aa8;
+}
+.popup .popup-header{
+	font-family: 'fira_sansregular';
+	font-weight: normal;
+    font-style: normal;
+    font-size: 25px;
+	color: #ffffff;
+	background-color: #48cbe8;
+	margin: 0 0 7px 0;
+	padding: 4px 12px 1px 13px;
+	border-bottom: 9px solid #67dffa;
+}
+.popup .popup-header:after{
+	content: url("../img/close.png");
+	float: right;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.popup-form {
+	padding: 0 20px;
+	position: relative;
+}
 
+
+
+.popup-input,
+.popup-input-file{
+	font-family: 'fira_sanslight';
+	font-size: 13px;
+	color: #48cbe8;
+	width: 321px;
+	height: 41px;
+	border: 1px solid #48cbe8;
+	border-radius: 3px;
+	box-sizing: border-box;
+	padding: 4px 10px 2px 10px;
+	margin-bottom: 6px;
+}
+.popup-input-file{
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+	text-align: left;
+	vertical-align: middle;
+	padding: 0;
+	margin: 2px 0 8px 0;
+
+}
+#open-button-placeholder{
+	background-color: #fbfcfd;
+	float:left;
+	height: 41px;
+	overflow: hidden;
+	padding: 10px 10px 10px 10px;
+	text-align: left;
+	width: 247px;
+}
+.open-button{
+	background: url("../img/save.png") center no-repeat;
+	background-color: #48cbe8;
+	float: right;
+	height: 42px;
+	width: 52px;
+	line-height: 41px;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+}
+#project-file{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	font-size: 150px;
+	height: 100%;
+	z-index:20;
+}
+.popup-input#project-about{
+	height: 112px;
+	resize: none;
+}
+
+.submit{
+	background-color: #48cbe8;
+	border-top: 2px solid #48cbe8;
+	border-bottom: 2px solid #3ba8c0;
+	float: none;
+	position: absolute;
+	left: 112px;
+	width: 140px;
+	margin-top: 2px;
+}
+
+.popup-input::-webkit-input-placeholder {
+color: #48cbe8 !important;
+}
+.popup-input:-moz-placeholder { /* Firefox 18- */
+color: #48cbe8 !important;  
+}
+.popup-input::-moz-placeholder {  /* Firefox 19+ */
+color: #48cbe8 !important;  
+}
+.popup-input:-ms-input-placeholder {  
+color: #48cbe8 !important;  
+}

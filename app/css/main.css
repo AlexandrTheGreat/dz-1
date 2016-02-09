@@ -251,3 +251,45 @@ body{
 	text-decoration: underline;
 }
 /* Контакты - конец*/
+.buttons{
+	width: 137px;
+	height: 31px;
+	box-shadow: none;
+	border:0;
+	margin: 0;
+	padding: 0;
+	border-radius: 5px;
+	font-family: "fira_sansbook";
+	font-size: 19px;
+	color: #ffffff;
+	outline: 0;
+}
+.submit{
+	float:left;
+	background-color: #48cbe8;
+	border-top: 2px solid #48cbe8;
+	border-bottom: 2px solid #3ba8c0;
+}
+.submit:hover{
+	border-top: 2px solid #48cbe8;
+	border-bottom: 2px solid #48cbe8;
+}
+.submit:active{
+	border-top: 2px solid #3ba8c0;
+	border-bottom: 2px solid #48cbe8;
+}
+.reset{
+	float:right;
+	width: 125px;
+	background-color: #849db5;
+	border-top: 2px solid #849db5;
+	border-bottom: 2px solid #687b8f;
+}
+.reset:hover{
+	border-top: 2px solid #849db5;
+	border-bottom: 2px solid #849db5;
+}
+.reset:active{
+	border-top: 2px solid #687b8f;
+	border-bottom: 2px solid #849db5;
+}
