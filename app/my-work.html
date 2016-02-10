@@ -152,16 +152,19 @@
 				</div>
 			</div>
 	</div>
-		<div class="popup-wrap hide">
 			<div class="popup-back hide">
 			</div>
+		<div class="popup-wrap hide">
+			
 			<div class="popup hide">
-				<div class="close"></div>
+				<button class="close"></button>
 				<h2 class="popup-header">Добавление проекта</h2>
-				<form class="popup-form" action="#" method="post">
-						
+				<form class="popup-form" action="php/add_project.php" method="post">
+					<div class="server-mes error-mes">Невозможно добавить проект</div>
+					<div class="server-mes success-mes">Невозможно добавить проект</div>
+
 					<label for="project-name">Название проекта</label>
-					<input class="popup-input" type="text" name="project-name" id="project-name" placeholder="Введите название" required>
+					<input class="popup-input" type="text" name="project-name" id="project-name" placeholder="Введите название">
 						
 					<label for="project-name">Картинка проекта</label>
 					<div class="popup-input-file">
@@ -171,16 +174,18 @@
 					</div>
 						
 					<label for="project-url">URL проекта</label>
-					<input class="popup-input" type="text" name="project-url" id="project-url" placeholder="Добвьте ссылку" required>
+					<input class="popup-input" type="text" name="project-url" id="project-url" placeholder="Добвьте ссылку">
 
 					<label for="project-url">Описание</label>
-					<textarea class="popup-input" type="text" name="project-about" id="project-about" placeholder="Пара слов о вашем проекте" required></textarea>
+					<textarea class="popup-input" type="text" name="project-about" id="project-about" placeholder="Пара слов о вашем проекте"></textarea>
 
 					<div class="submit-button-wrap">
 						<input class="buttons submit" type="submit" id="submit" name="submit" value="Добавить">
 					</div>
 					
 				</form>
+			</div>
+			
 			</div>
 		</div>
 	</div>
